@@ -1,0 +1,49 @@
+.feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+    
+}
+
+.feedback__titulo{
+    color: var(--vinho);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    
+}
+
+.feedback__texto{
+    color: var(--preto);
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.perfil{
+    color: var(--preto);
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.perfil::before{
+    content: url(/img/icone\ perfil.svg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.perfil__descricao{
+    color: var(--cinza);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+
+}

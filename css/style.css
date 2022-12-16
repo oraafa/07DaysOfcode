@@ -1,0 +1,14 @@
+:root{
+    --preto-titulo:#101828;
+    --preto-2:#3A404E;
+    --cinza:#667085;
+    --vinho:#8E2424;
+    --font:'Inter';
+    --cinza-claro:rgba(234, 236, 240, 1);
+
+}
+
+body{
+    font-family: var(--font);
+    
+}

@@ -1,0 +1,53 @@
+.sobre-nos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-nos__titulo{
+    color: var(--vinho);
+    font-family: var(--font);
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.sobre-nos__titulo--secundario{
+    color: var(--preto-titulo);
+    font-family: var(--font);
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.sobre-nos__texto{
+    color: var(--cinza);
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.sobre-nos__descricao{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 150px;
+    
+}
+
+
+.sobre-nos__descricao--titulo{
+    color: var(--preto-titulo);
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+
+}
+
+.sobre-nos__descricao--texto{
+    color: var(--cinza);
+    font-family: var(--cinza);
+    font-weight: 400;
+    margin-top: 15px;
+}
